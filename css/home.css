@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+.mySlides{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+}
+.main{
+    background-color: #E1FDFF;
+}
+.text-box h1{
+    color:rgb(8, 8, 81);
+    font-size: 50px;
+    text-align: center;
+}
+.text-box p{
+     margin: 5px 0 10px;
+    font-size: 15px;
+    color: rgb(8, 8, 81);
+}
+
+/*------- courses-----*/
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    text-align: center;
+    font-language-override: 36px;
+    font-weight: 600;
+    color: rgb(8, 8, 81);
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+p{
+    text-align: center;
+    color: rgb(8, 8, 81);
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 12px;
+}
+.row{
+    margin-top: 5%;
+    margin-left:5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+   text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+.course-col{
+    flex-basis: 31%;
+    background: #91B8D4;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+.course-col .link-dark{
+    color: rgb(8, 8, 81);
+    text-decoration: none;
+}
+.course-col:hover{
+    box-shadow: 0 0 10px 0px rgba(8, 8, 81);
+}
+
+/* .card-columns .cards{
+    max-width: 50%;
+}
+.card{
+    border-radius: 10px;
+    background: #91B8D4;
+    transition: 0.5s;
+}
+.btn{
+    margin: 0px 0px 0px;
+    padding: 0px;
+}
+.card-body{
+    padding: 20px 0px 20px 0px;
+}
+.card-body:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+} */
+footer {
+    clear: both;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    background-color: #91B8D4;
+    color: rgba(8, 8, 81);
+    font-weight: 300;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  }
+p{
+    margin:0px 0px 0px;
+    font-size: medium;
+}

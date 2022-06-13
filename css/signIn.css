@@ -1,0 +1,183 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:focus {
+  color: rgb(8, 8, 81);
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: rgb(163, 188, 192);
+  border: 0.05rem solid rgb(0, 0, 0);
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #333;
+  border: 0.05rem solid #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: rgb(90, 139, 146);
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: rgb(8, 8, 81);
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+
+.main-container {
+  max-width: 42em;
+}
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/*
+ * main
+ */
+.main {
+  padding: 0 1.5rem;
+}
+.main .btn-lg {
+  padding: 0.75rem 1.25rem;
+  font-weight: 700;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgb(8, 8, 81);
+}
+
+/*
+ * Sign in
+ */
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"]::placeholder { 
+    color: #333;
+  }
+.form-signin input[type="password"]::placeholder { 
+    color: #333;
+  }
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: rgb(163, 188, 192);
+  border-color: rgb(0, 0, 0);
+}
+.form-signin input[type="email"]:focus{   
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  background-color: rgb(163, 188, 192);
+  color: rgb(0, 0, 0);
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: rgb(163, 188, 192);
+  border-color: rgb(0, 0, 0);
+}
+.form-signin input[type="password"]:focus{   
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    background-color: rgb(163, 188, 192);
+    color: rgb(0, 0, 0);
+  }
+.form-signin .link a{
+  color: #fff;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
